@@ -2,7 +2,7 @@ kind: blueprint
 spec_version: 1
 
 clouds:
-- azure 2: westeurope
+- azure: westeurope
 
 inputs:
 - AZURE_VM_SIZE: Standard_B2ms
