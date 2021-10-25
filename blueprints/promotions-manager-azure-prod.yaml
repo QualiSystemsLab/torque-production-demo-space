@@ -13,8 +13,8 @@ inputs:
 - NETWORK_ID: promotions-manager-prod/prod-vnet
 
 artifacts:
-- promotions-manager-ui:
-- promotions-manager-api:
+- promotions-manager-ui: artifacts/latest/promotions-manager-ui.master.tar.gz
+- promotions-manager-api: artifacts/latest/promotions-manager-api.master.tar
 
 applications:
 - promotions-manager-ui:  
