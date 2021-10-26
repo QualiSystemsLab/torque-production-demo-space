@@ -14,7 +14,7 @@ echo '==> Extract api artifact to /var/promotions-manager-api'
 mkdir $ARTIFACTS_PATH/drop
 tar -xvf $ARTIFACTS_PATH/promotions-manager-api.*.tar.gz -C $ARTIFACTS_PATH/drop/
 mkdir /var/promotions-manager-api/
-tar -xvf $ARTIFACTS_PATH/drop/promotions-manager-api.*.tar.gz -C /var/promotions-manager-api
+tar -xvf $ARTIFACTS_PATH/drop/drop/promotions-manager-api.*.tar.gz -C /var/promotions-manager-api
 
 echo '==> Set the DATABASE_HOST env var to be globally available'
 echo 'DATABASE_HOST='$DATABASE_HOST >> /etc/environment
